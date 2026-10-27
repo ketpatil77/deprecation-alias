@@ -100,7 +100,6 @@ exclude = [
 
 [tool.hatch.build.targets.sdist]
 include = [ "deprecation_alias", "requirements.txt", "tests", "tox.ini",]
-# Include downstream tests only in source archives.
 exclude = []
 
 [tool.hatch.build.wheel]
